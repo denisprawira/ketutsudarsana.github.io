@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    height:100vh;
+    background-image: linear-gradient(to bottom right, #151654, #000000);
+}
+
+#navbar{
+    padding:35px 0;
+    max-height: 20%;
+}
+
+.nav-item>a{
+    color:white
+}
+
+section{
+    min-height:100vh;
+
+}
+
+main{
+
+}
+
+#particles-js{
+    width:100%;
+    height:100vh;
+
+    
+}
+
+.navbar-toggle .icon-bar{ background-color: #fff;}
+
+#simpleUsage{
+    color:white;
+    margin-bottom:20px;
+}
+
+
+
+  #row-content-header{
+    height:100%;
+
+  
+  }
+  .col{
+    color: peru;
+  }
+  #col1-header{
+    height:100%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+  
+  }
+
+  #col2-header{
+      width: 50%;
+   
+  }
+
+  #header-content{
+      height:80%;
+   
+  }
+
+  #h2-money-market{
+      font-weight:300px;
+  }
+
+  .card-thumnail{
+      border:0;
+      padding:25px;
+      min-height:432px;
+      border-radius:10px !important;
+      /* box-shadow:0 6px 30px rgb(17 26 104 / 10%); */
+      box-shadow:0 8px 48px rgb(58 65 102 / 10%);
+      
+      transition: all .4s;
+  }  
+
+  .card-thumnail:hover{
+      box-shadow: 0 8px 40px rgb(17 26 104 / 20%);
+      transform:scale(1.03);
+  }
+
+  hr{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border:0;
+    border-top:1px solid rgba(0,0,0,.1); 
+ }
+ 
+ hr{
+     box-sizing:content-box;
+     height:0;
+     overflow:visible;
+ }
+ 
+ hr{
+     display:block;
+     unicode-bidi:isolate;
+     margin-block-start:0.5em;
+     margin-block-end:0.5em;
+     margin-inline-start:auto;
+     margin-inline-end:auto;
+     overflow:hidden;
+     border-style:inset;
+     border-width:1px;
+ }
+ .featurette-divider {
+     margin: 5rem 0;
+ }
+
+ .carousel-inner{
+     width:100%;
+    max-height: 500px !important;
+  }
+  .carousel-caption{
+    bottom:0 !important;
+    top:50% !important;
+}
+
+footer{
+    min-height:100vh;
+    background-image: linear-gradient(to bottom right, #151654, #000000);
+}
+
+#row-contact{
+    min-height: inherit;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#card-contact{
+    border-radius:10px;
+    box-shadow:0 8px 48px rgb(58 65 102 / 10%);
+    min-height:500px;
+    background-color:white;
+    margin: 0 auto;
+    width: 30rem !important;
+    align-items: center;
+    padding-top: 30px;
+
+  
+}
+
+#img-contact{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    
+}
