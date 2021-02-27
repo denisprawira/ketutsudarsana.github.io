@@ -1,0 +1,10 @@
+body{
+    background:yellow;
+    h2{
+        background:green;
+    }
+}
+
+body>h2{
+    background:green;
+}

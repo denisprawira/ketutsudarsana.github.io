@@ -1,0 +1,12 @@
+body {
+  background: yellow;
+}
+
+body h2 {
+  background: green;
+}
+
+body > h2 {
+  background: green;
+}
+/*# sourceMappingURL=main.css.map */

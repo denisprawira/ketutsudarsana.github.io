@@ -1,5 +1,70 @@
 /*for phone*/
 @media only screen and (max-width:480px){
+    #header-content img{
+        max-width:50%
+    }
+
+    #row-content-header h1,
+    #row-content-header h2,
+    #row-content-header p{
+        text-align: start !important;
+    }
+
+    #row-content-header p{
+        padding:0 0 !important;
+
+    }
+    #row-content-header li{
+        font-size: 1.3rem !important;
+        padding-left:3%;
+    }
+
+    #row-content-header h1{
+        font-size: 1.8rem;
+    }
+
+    #row-content-header h2{
+        font-size: 1.5rem;
+    }
+
+    #row-content-header #col1-header{
+   
+        align-items: center;
+    }
+
+    #row-content-header h1,#row-content-header p{
+        text-align:center;
+    }
+
+    #row-content-header p{
+        padding:0 20%;
+        font-size:24px;
+    }
+    #row-content-header hr+h1{
+        margin:30px 0;
+    }
+
+    #row-content-header hr{
+        border:2px solid white;;
+        width:30%;
+    }
+
+    #row-content-header h1:first-child{
+        background:rgb(255, 166, 0);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        padding:10px 20px;
+        font-size:1.5rem;
+    }
+
+    #row-content-header ul{
+        padding-left:5%;
+    }
+
+    /*end of header section*/
 
     #card-contact{
         max-width:100% !important;
@@ -14,7 +79,7 @@
         -webkit-box-flex:2;
             -ms-flex-positive:2;
                 flex-grow:2;
-        padding-top:30%;
+       
     }
     
     .carousel-caption{
@@ -133,6 +198,28 @@
         margin:20px 0;
         text-align:center;
     }
+
+        /*ADDITIONAL SECTION */
+    #section-additional{
+        background-color: darkblue;
+    }
+    #section-additional>.container>.row{
+        padding-bottom:5%;
+
+    }
+
+    #section-additional h1{
+        color:white;
+        margin-bottom:40px;
+        text-align:center;
+        font-size:1.5rem;
+    }
+
+    #section-additional img{
+        width:100%;
+        padding:0 30px;
+    }
+
 
 
     /*SECTION 4*/
@@ -257,9 +344,49 @@
 /*for ipad, tablet*/
 @media only screen 
 and (min-width:480px) and (max-width:1080px){
-    body{
-        
+    /*header*/
+    #header-content img{
+        max-width:30%
     }
+
+    #row-content-header #col1-header{
+   
+        align-items: center;
+    }
+
+    #row-content-header h1,#row-content-header p{
+        text-align:center;
+    }
+
+    #row-content-header p{
+        padding:0 20%;
+        font-size:24px;
+    }
+    #row-content-header hr+h1{
+        margin:30px 0;
+    }
+
+    #row-content-header hr{
+        border:2px solid white;;
+        width:30%;
+    }
+
+    #row-content-header h1:first-child{
+        background:rgb(255, 166, 0);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        padding:10px 20px;
+    }
+
+    #row-content-header ul{
+        padding-left:5%;
+    }
+
+
+    /*header-section end*/
     .card-container{
         padding:0 10px;
     }
@@ -275,6 +402,27 @@ and (min-width:480px) and (max-width:1080px){
 
     #section-2,#section-4,#section-6,#section-9,#section-8{
         padding-bottom:5%;
+    }
+
+            /*ADDITIONAL SECTION */
+    #section-additional{
+        background-color: darkblue;
+    }
+    #section-additional>.container>.row{
+        padding-bottom:5%;
+
+    }
+
+    #section-additional h1{
+        color:white;
+        margin-bottom:40px;
+        text-align:center;
+        font-size:1.5rem;
+    }
+
+    #section-additional img{
+        width:100%;
+        padding:0 30px;
     }
 
     /*SECTION 8 */
@@ -356,6 +504,45 @@ and (min-width:480px) and (max-width:1080px){
 /*for laptop*/
 @media only screen and (min-width:1080px){
 
+    /*header*/
+    #header-content img{
+        max-width:30%
+    }
+
+    #row-content-header #col1-header{
+   
+        align-items: center;
+    }
+
+    #row-content-header h1,#row-content-header p{
+        text-align:center;
+    }
+
+    #row-content-header p{
+        padding:0 20%;
+        font-size:24px;
+    }
+    #row-content-header hr+h1{
+        margin:30px 0;
+    }
+
+    #row-content-header hr{
+        border:2px solid white;;
+        width:30%;
+    }
+
+    #row-content-header h1:first-child{
+        background:rgb(255, 166, 0);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        padding:10px 20px;
+    }
+
+
+
     /*SECTION 1*/
     #section-1 p{
         text-align: center;
@@ -432,6 +619,26 @@ and (min-width:480px) and (max-width:1080px){
 
     #section-3>.row>.col>.row:nth-child(3){
         margin-top:50px
+    }
+
+    /*ADDITIONAL SECTION */
+    #section-additional{
+        background-color: darkblue;
+    }
+    #section-additional>.container>.row{
+        padding-bottom:5%;
+
+    }
+
+    #section-additional h1{
+        color:white;
+        margin-bottom:40px;
+        text-align:center;
+    }
+
+    #section-additional img{
+        width:100%;
+        padding:0 30px;
     }
 
 
