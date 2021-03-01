@@ -384,6 +384,10 @@ and (min-width:480px) and (max-width:1080px){
     #row-content-header ul{
         padding-left:5%;
     }
+    
+        #row-content-header ul{
+        padding-left:5%;
+    }
 
 
     /*header-section end*/
