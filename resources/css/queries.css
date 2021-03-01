@@ -541,10 +541,10 @@ and (min-width:480px) and (max-width:1080px){
         padding:10px 20px;
     }
     
-
-    #col1-header ul {
-        width:100%;
+    #row-content-header ul{
+        width: 100%;
     }
+
 
 
     /*SECTION 1*/
